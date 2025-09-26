@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=Jetson_power.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Jetson_power.SchDoc|FileName=MCU_IMU.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Jetson_power.SchDoc|FileName=UART_LOGIC.SchDoc|SheetNumber=2
