@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="https://github.com/Bryanh002/ERGOS-Dynamic-Humanoid-Platform/blob/main/docs/images/ERGOS-ASCII-art.png" width="600"/>
-  <br>
-</p>
-
+# ERGOS
 ### Embodied Reinforcement Gait Operating System
 ---
 
