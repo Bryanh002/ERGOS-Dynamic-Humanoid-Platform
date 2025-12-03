@@ -7,7 +7,7 @@ The ERGOS (Embodied Reinforcement Gait Operating System) project is a low-cost, 
 
 
 <p align="center">
-  <img src="https://github.com/Bryanh002/AI-Robot/blob/main/Documentation/images/Robot_Image_1.PNG" width="600"/>
+  <img src="https://github.com/Bryanh002/AI-Robot/blob/main/docs/images/Robot_Image_1.PNG" width="600"/>
   <br>
 </p>
 
