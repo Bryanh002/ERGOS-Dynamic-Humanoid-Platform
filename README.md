@@ -14,7 +14,7 @@ ERGOS is a low-cost, open-source platform designed for advanced dynamic humanoid
 
 
 <p align="center">
-  <img src="https://github.com/Bryanh002/ERGOS-Dynamic-Humanoid-Platform/blob/main/Mechanical/Visualize/Robot_Visualized%202.jpg" width="1000"/>
+  <img src="https://github.com/Bryanh002/ERGOS-Dynamic-Humanoid-Platform/blob/main/docs/images/ERGOS-Rendered-image/ERGOS-Rendered-image.png" width="3000"/>
   <br>
 </p>
 
