@@ -10,7 +10,7 @@
 ---
 
 ## 🧠 Overview
-ERGOS is a low-cost, open-source platform designed for advanced dynamic humanoid robotics research. It serves as a ROS2-based control environment that integrates high-efficiency servo hardware with Reinforcement Learning (RL) techniques. The primary goal of ERGOS is to develop and optimize highly dynamic, stable gait patterns for bipedal systems, demonstrating sophisticated movement capabilities on an economical, self-contained hardware platform. Here is a photo of ERGOS's current design:
+ERGOS is meant to be a low-cost, open-source platform designed for dynamic humanoid robotics research. It serves as a ROS2-based control environment that integrates serial servo hardware with Reinforcement Learning (RL) techniques. The primary goal of ERGOS is to develop and optimize dynamic, stable gait patterns for bipedal systems, demonstrating advanced movement capabilities on an economical, self-contained hardware platform. Here is a photo of ERGOS's current design:
 
 
 <p align="center">
@@ -20,11 +20,11 @@ ERGOS is a low-cost, open-source platform designed for advanced dynamic humanoid
 
 ---
 
-## Repository Map
+## 🗺️ Repository Map
 
 - **Hardware**
-  - [`hardware/mechanical/`](hardware/mechanical/) — CAD, renders
-  - [`hardware/electrical/`](hardware/electrical/) — schematics, PCB, BOM
+  - [`mechanical/`](mechanical/) — CAD, renders
+  - [`electrical/`](electrical/) — schematics, PCB, BOM
 - **Software**
   - [`software/`](software/) — firmware, ROS 2 packages, tools, simulations
 - **Docs**
@@ -98,10 +98,7 @@ ERGOS is a low-cost, open-source platform designed for advanced dynamic humanoid
 ---
 
 ## 📈 Future Work
-- Implement visual SLAM and object detection pipeline  
-- Add voice recognition and LLM-based decision-making  
-- Optimize energy consumption and walking stability  
-- Publish simulation and training environments for community use  
+- WIP
 
 ---
 
@@ -111,15 +108,20 @@ See the [LICENSE](LICENSE) file for more information.
 
 ---
 
-## 👤 Author
+## 👤 Project Developer
 **Bryan Heddle**  
 Mechatronics & AI Systems Engineering Student — *Western University*  
 
 ---
 
 ## 💡 Acknowledgments
-Special thanks to the open-source robotics community for tools, documentation, and inspiration contributing to this project’s foundation.
+Special thanks to the open-source robotics community for the tools, documentation, and inspiration that contributed to this project’s foundation.
 
+Thank you to my project sponsors:
+
+Thompson Innovation Fund: https://www.eng.uwo.ca/tc/innovation-fund.html
+WESEF: https://www.eng.uwo.ca/departments-units/finance-stores/undergrads/wesef.html
+Luxonis: https://www.luxonis.com/
 ---
 
 
