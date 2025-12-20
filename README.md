@@ -117,11 +117,10 @@ Mechatronics & AI Systems Engineering Student — *Western University*
 ## 💡 Acknowledgments
 Special thanks to the open-source robotics community for the tools, documentation, and inspiration that contributed to this project’s foundation.
 
-Thank you to my project sponsors:
-
-Thompson Innovation Fund: https://www.eng.uwo.ca/tc/innovation-fund.html
-WESEF: https://www.eng.uwo.ca/departments-units/finance-stores/undergrads/wesef.html
-Luxonis: https://www.luxonis.com/
+**Project sponsors:**
+- **[Thompson Innovation Fund](https://www.eng.uwo.ca/tc/innovation-fund.html)**
+- **[WESEF](https://www.eng.uwo.ca/departments-units/finance-stores/undergrads/wesef.html)**
+- **[Luxonis](https://www.luxonis.com/)**
 ---
 
 
