@@ -32,48 +32,54 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
 
 ---
 
-## ⚙️ Features (Planned and In Progress)
-- **Dynamic Walking with Reinforcement Learning**
-  - RL-based control for adaptive locomotion
-  - Simulation-first training approach before deployment on hardware
-- **Smart Serial Servo Control**
-  - Dual-servo setup using Feetech STS3235 and STS3250 actuators  
-  - Pulleys with 2:1 gear ratios at select joints for torque optimization
-- **Custom Electronics**
-  - PCB with ESP32-S3 microcontroller for servo communication and power management
-  - Jetson Orin Nano as the main compute module running the AI systems
-- **Environmental Awareness (Future)**
-  - Integration of a vision system for obstacle perception and terrain recognition
-- **Speech and Interaction (Future)**
-  - Onboard LLM to process voice commands and control robot behavior through natural language
+## ⚙️ Features & Capabilities  
+*(Planned and In Progress)*
+
+### Mechanical System
+- **Custom humanoid mechanical design**
+- Belt-driven actuation using **HTD-3M pulleys (18T–30T)** for joint-specific torque amplification
+- **3D-printed structural housings** optimized for low cost and rapid iteration
+- Modular joint architecture to support future actuator and transmission upgrades
+
+### Electronics & Power
+- **Custom PCB** featuring an **ESP32-S3** for real-time servo communication
+- Custom **full-duplex to half-duplex TTL transceiver** for serial servo bus control
+- On-board **power management** from a **3S 8400 mAh LiPo battery**
+- Custom **power and communication harness backbone** for distributed serial servos
+- **Jetson Orin Nano** as the primary compute module, interfacing with the MCU for control and perception workloads
+
+### Dynamic Locomotion (Reinforcement Learning) *(Future)*
+- **Reinforcement learning-based locomotion control** for stable, adaptive walking
+- **Simulation-first training pipeline** with planned sim-to-real transfer onto physical hardware
+- Architecture designed to support experimentation with different control formulations and reward structures
+
+### Environmental Perception *(Future)*
+- Vision system integration for **obstacle detection** and **terrain awareness**
+- Planned fusion of perception outputs into locomotion and navigation policies
+
+### Speech & Human Interaction *(Future)*
+- On-board **large language model (LLM)** for voice-based command interpretation
+- Natural-language interface for high-level behavior control and human–robot interactions
 
 ---
 
 ## 🧩 System Architecture (In Development)
-| Component | Function |
-|------------|-----------|
-| **Jetson Orin Nano** | Runs reinforcement learning models and manages high-level control |
-| **ESP32-S3 PCB** | Interfaces with servos, manages serial bus communication and power |
-| **Smart Servos (Feetech STS3235 & STS3250)** | Actuators for joints, supporting position feedback and serial daisy-chaining |
-| **Pulleys (2:1 ratio)** | Increases effective torque at key leg joints |
-| **Simulation Environment** | Used for RL model training prior to real-world deployment |
-
-> CAD design (SolidWorks) and PCB layout (Altium Designer) are currently in active development.
+- WIP
 
 ---
 
 ## 🧪 Development Phases
-1. **Phase 1 — Hardware Integration**  
+1. **Phase 1 — Hardware Creation**  
    Finalize CAD design and PCB for servo control and power distribution.
 
-2. **Phase 2 — Reinforcement Learning Simulation**  
+3. **Phase 2 — Reinforcement Learning Simulation**  
    Develop simulation environment for dynamic walking using RL.  
    *(Likely frameworks: PyTorch, custom physics simulation, or Isaac Gym)*
 
-3. **Phase 3 — Real-World Testing**  
+4. **Phase 3 — Real-World Testing**  
    Transfer trained model to the Jetson Orin Nano for live walking experiments.
 
-4. **Phase 4 — Vision and Speech Integration**  
+5. **Phase 4 — Vision and Speech Integration**  
    Add camera input for object detection and LLM for high-level control.
 
 ---
