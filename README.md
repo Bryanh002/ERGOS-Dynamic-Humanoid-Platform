@@ -36,29 +36,29 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
 *(Planned and In Progress)*
 
 ### Mechanical System
-- **Custom humanoid mechanical design**
-- Belt-driven actuation using **HTD-3M pulleys (18T–30T)** for joint-specific torque amplification
-- **3D-printed structural housings** optimized for low cost and rapid iteration
+- Custom humanoid mechanical design
+- Belt-driven actuation using HTD-3M pulleys (18T–30T) for joint-specific torque amplification
+- 3D-printed structural housings optimized for low cost and rapid iteration
 - Modular joint architecture to support future actuator and transmission upgrades
 
 ### Electronics & Power
-- **Custom PCB** featuring an **ESP32-S3** for real-time servo communication
-- Custom **full-duplex to half-duplex TTL transceiver** for serial servo bus control
-- On-board **power management** from a **3S 8400 mAh LiPo battery**
-- Custom **power and communication harness backbone** for distributed serial servos
-- **Jetson Orin Nano** as the primary compute module, interfacing with the MCU for control and perception workloads
+- Custom PCB featuring an ESP32-S3 for real-time servo communication
+- Custom full-duplex to half-duplex TTL transceiver for serial servo bus control
+- On-board power management from a 3S 8400 mAh LiPo battery
+- Custom power and communication harness backbone for distributed serial servos
+- Jetson Orin Nano as the primary compute module, interfacing with the MCU for control and perception workloads
 
 ### Dynamic Locomotion (Reinforcement Learning) *(Future)*
-- **Reinforcement learning-based locomotion control** for stable, adaptive walking
-- **Simulation-first training pipeline** with planned sim-to-real transfer onto physical hardware
+- Reinforcement learning-based locomotion control for stable, adaptive walking
+- Simulation-first training pipeline with planned sim-to-real transfer onto physical hardware
 - Architecture designed to support experimentation with different control formulations and reward structures
 
 ### Environmental Perception *(Future)*
-- Vision system integration for **obstacle detection** and **terrain awareness**
+- Vision system integration for obstacle detection and terrain awareness
 - Planned fusion of perception outputs into locomotion and navigation policies
 
 ### Speech & Human Interaction *(Future)*
-- On-board **large language model (LLM)** for voice-based command interpretation
+- On-board large language model (LLM) for voice-based command interpretation
 - Natural-language interface for high-level behavior control and human–robot interactions
 
 ---
@@ -73,7 +73,7 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
    Finalize CAD design and PCB for servo control and power distribution.
 
 3. **Phase 2 — Reinforcement Learning Simulation**  
-   Develop simulation environment for dynamic walking using RL.  
+   Develop a simulation environment for dynamic walking using RL.  
    *(Likely frameworks: PyTorch, custom physics simulation, or Isaac Gym)*
 
 4. **Phase 3 — Real-World Testing**  
