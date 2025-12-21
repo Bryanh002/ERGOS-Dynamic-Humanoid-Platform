@@ -63,8 +63,15 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
 
 ---
 
-## 🧩 System Architecture (In Development)
-- WIP
+## 🧩 System Architecture
+
+<p align="center">
+  <img src="https://github.com/Bryanh002/ERGOS-Dynamic-Humanoid-Platform/blob/main/docs/images/Architecture-Diagrams/ERGOS_System_Architecture.png" width="3000"/>
+  <br>
+</p>
+
+### Figure 1. 
+High-level system architecture of ERGOS showing centralized power distribution, hierarchical control (Jetson → ESP32), and modular actuator daisy chains. High-level control and reinforcement learning policies are executed within the ROS 2 stack, while real-time actuation and sensor interfacing are handled by the ESP32-S3.
 
 ---
 
