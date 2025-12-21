@@ -70,8 +70,7 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
   <br>
 </p>
 
-### Figure 1. 
-High-level system architecture of ERGOS showing centralized power distribution, hierarchical control (Jetson → ESP32), and modular actuator daisy chains. High-level control and reinforcement learning policies are executed within the ROS 2 stack, while real-time actuation and sensor interfacing are handled by the ESP32-S3.
+**Figure 1.** High-level system architecture of the ERGOS humanoid platform. The system is powered by a centralized 3S LiPo battery, which feeds a custom power distribution and regulation stage. This stage supplies both the actuator subsystem and the main compute unit. High-level perception, planning, and reinforcement learning policies are executed on the Jetson Orin Nano within a ROS 2-based control stack. Control commands are transmitted to an ESP32-S3 real-time controller, which handles low-level actuation and interfaces directly with modular servo daisy chains. Sensor inputs, including depth vision, inertial measurements, and foot force sensing, are processed on the Jetson and integrated into the control pipeline. Detailed mechanical, electrical, and software architectures are documented in subsystem-specific sections.
 
 ---
 
